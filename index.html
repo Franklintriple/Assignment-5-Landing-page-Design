@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+    <img src="./newlogo.73b2f7b4.png" alt="" class="logo">
+ 
+    
+
+    <ul class="side-bar">
+        <li class="cancel-container" onclick="hideSidebar()">
+            <a href="#"><img src="./icons8-x-64.png" alt="" class="cancel"></a>
+        </li>
+
+        <li>
+            <a href="#">Developers</a>
+        </li>
+        <li>
+            <a href="#">Pricing</a>
+        </li>
+        <li>
+            <a href="#">FAQs</a>
+        </li>
+        <li>
+            <a href="#">Learn</a>
+        </li>
+        <li>
+            <a href="#" >LOGIN</a>
+        </li>
+        <li>
+            <a href="#" class="sign-up">Sign Up</a>
+        </li>
+        
+    </ul>
+
+    <ul class="menu">
+        <li>
+            <a href="#">Developers</a>
+        </li>
+        <li>
+            <a href="#">Pricing</a>
+        </li>
+        <li>
+            <a href="#">FAQs</a>
+        </li>
+        <li>
+            <a href="#">Learn</a>
+        </li>
+        <li>
+            <a href="#" >LOGIN</a>
+        </li>
+        
+        <li> <a href="#" class="sign-up">Sign Up</a></li>
+    </ul>
+   
+    <a href="#" class="icon" onclick="showSidebar()"><img src="./toggle.c5542e7c.svg" alt=""></a>
+    
+   </nav>
+   <section>
+
+<div class="page-container">
+    <div class="side-content">
+        <h2>Making Payment Easier With Wallet</h2>
+        <p>Integrate mobile wallet systems into your solution today and enable seamless money transfer to and from your application</p>
+        <a href="#">CREATE A FREE ACCOUNT</a>
+    </div>
+    <div class="content-image">
+    <img src="./dashboard-img.56fd7c82.png" alt="">
+    </div>
+ 
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.side-bar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>

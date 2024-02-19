@@ -1,0 +1,265 @@
+body{
+    background-color: white;
+}
+
+nav{
+    padding: 16px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+.menu{
+    display: none;
+}
+
+
+.icon {
+
+    font-size: 22px;
+}
+
+.logo{
+width: 250px;
+
+}
+
+
+
+.side-bar{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    height: 100vh;
+    width: 250px;
+  
+    background-color: white;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+   justify-content: center;
+   padding-top: 50px;
+margin-top: -20px;
+
+  z-index: 999;
+   
+
+}
+
+.side-bar li{
+
+    height: 50px;
+   
+
+}
+.side-bar a{
+height: 100%;
+padding: 0 30px;
+text-decoration: none;
+color: black;
+
+}
+.side-bar .sign-up{
+    display: block;
+    width: 120px;
+    background-color: rgb(37, 108, 225);
+    text-align: center;
+    color: white;
+    padding: 8.7px 14.8px;
+    line-height: 32px;
+    text-decoration-line: none;
+    box-sizing: border-box;
+    border-radius: 22px;
+   
+
+
+}
+.side-bar a:hover{
+background-color: #f0f0f0;
+padding: 18px;
+border-radius: 15px;
+
+}
+
+.cancel-container{
+    position: absolute;
+    top: 50px;
+    margin-right: -120px;
+   
+}
+
+.cancel{
+
+    width: 25px;
+}
+
+.page-container{
+    display: block;
+    
+}
+.content-image{
+    display: none;
+}
+.side-content{
+    height: 400px;
+    line-height: 70px;
+    margin-left: 30px;
+    }
+    .side-content h2{
+    font-size: 28.7px;
+    font-family: sans-serif;
+    width: 100%;
+    
+    }
+    .side-content p{
+        font-size: 19.2px;
+        font-family: sans-serif;
+        width: 90%;
+        opacity: 0.7;
+        line-height: 32px;
+    }
+    .side-content a{
+        text-decoration: none;
+        background-color: rgb(25, 118, 210);
+        border-radius: 10px;
+        padding: 16px;
+        font-size: 12px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 700;
+        width: 200px;
+        
+    }
+
+
+@media only screen and (min-width: 600px)
+{
+    
+}
+
+@media only screen and (min-width: 1024px)
+{
+    
+.toggle {
+    display: none;
+    
+}
+
+nav{
+
+    padding: 16px 150px;
+    justify-content: space-evenly;
+
+
+}
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    margin: 0 16px;
+  
+
+
+}
+.menu a:hover{
+    background-color: #f0f0f0;
+padding: 18px;
+border-radius: 15px;
+transition-delay: 0s;
+transition-duration: 0.3s;
+}
+nav li{
+    margin: 0 30px;
+    
+}
+li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+.sign-up{
+    display: flex;
+    width: 120px;
+    background-color: rgb(37, 108, 225);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 8.7px 14.8px;
+    line-height: 32px;
+    text-decoration-line: none;
+    box-sizing: border-box;
+    border-radius: 22px;
+   margin-top: -10px;
+font-size: 15px;
+
+}
+nav .side-bar{
+    display: none;
+}
+.menu{
+    display: flex;
+}
+.icon{
+    display: none;
+}
+
+.page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-image{
+    display: flex;
+}
+.content-image img{
+    width: 543.3px;
+    height: 519.98;
+}
+.side-content{
+height: 400px;
+line-height: 70px;
+}
+.side-content h2{
+font-size: 56px;
+font-family: sans-serif;
+width: 100%;
+
+}
+.side-content p{
+    font-size: 24px;
+    font-family: sans-serif;
+    width: 80%;
+    opacity: 0.7;
+    line-height: 35px;
+}
+.side-content a{
+    text-decoration: none;
+    background-color: rgb(25, 118, 210);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 200px;
+    
+}
+
+
+}
